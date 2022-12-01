@@ -1,0 +1,37 @@
+:root {
+    --colorPetrolBlue: #14213D;
+  }
+
+.next{
+    color: var(--colorPetrolBlue);
+    display: flex;
+    font-size: 30px;
+    position: relative;
+    bottom: 180px;
+    left: 460px;
+    cursor: pointer;
+}
+
+.prev{
+    color: var(--colorPetrolBlue);
+    display: flex;
+    font-size: 30px;
+    position: relative;
+    top: 155px;
+    right: 60px;
+    cursor: pointer;
+}
+
+
+@media  (max-width: 800px) {
+
+     .next{
+        display: none;
+     }
+
+
+      .prev{
+        display: none;
+      }
+        
+}
